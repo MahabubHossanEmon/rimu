@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar bg-slate-200 ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="admin.html">Admin Home</a></li>
+                        <li><a href="userList.html">User LIst</a></li>
+                        <li><a href="addUser.html">Add User</a></li>
+                      
+                    </ul>
+                  </div>
+            </div>
+           
+          
+          </div>
+    </header>
+    <main>
+        <div class="flex flex-col w-full lg:flex-row p-5 mt-20">
+            <div class="grid flex-grow h-44 card bg-base-300 rounded-box place-items-center">content</div> 
+            <div class="divider lg:divider-horizontal"></div> 
+            <div class="grid flex-grow h-44 card bg-base-300 rounded-box place-items-center">content</div>
+            <div class="divider lg:divider-horizontal"></div> 
+            <div class="grid flex-grow h-44 card bg-base-300 rounded-box place-items-center">content</div>
+          </div>
+          <!-- table start -->
+          <section>
+            <div class="overflow-x-auto">
+                <table class="table">
+                  <!-- head -->
+                  <thead>
+                    <tr>
+                      <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                      <th>Name</th>
+                      <th>Details</th>
+                      <th>ADD/Delete</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- row 1 -->
+                    <tr>
+                      <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                      <td>
+                        <div class="flex items-center gap-3">
+                          <div class="avatar">
+                            <div class="mask mask-squircle w-12 h-12">
+                              <img src="" alt="" />
+                            </div>
+                          </div>
+                          <div>
+                            <div class="font-bold">Hart Hagerty</div>
+                            <div class="text-sm opacity-50">United States</div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        Zemlak, Daniel and Leannon
+                        <br/>
+                        <span class="badge badge-ghost badge-sm">Desktop Support Technician</span>
+                      </td>
+                      <td><button  class="btn btn-ghost btn-xs">add</button></td>
+                      <th>
+                        <button class="btn btn-ghost btn-xs">delete</button>
+                      </th>
+                    </tr>
+                    <!-- row 2 -->
+                    <tr>
+                      <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                      <td>
+                        <div class="flex items-center gap-3">
+                          <div class="avatar">
+                            <div class="mask mask-squircle w-12 h-12">
+                                <img src="" alt="" />
+                            </div>
+                          </div>
+                          <div>
+                            <div class="font-bold">Brice Swyre</div>
+                            <div class="text-sm opacity-50">China</div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        Carroll Group
+                        <br/>
+                        <span class="badge badge-ghost badge-sm">Tax Accountant</span>
+                      </td>
+                      <td><button  class="btn btn-ghost btn-xs">add</button></td>
+                      <th>
+                        <button class="btn btn-ghost btn-xs">delete</button>
+                      </th>
+                    </tr>
+                    <!-- row 3 -->
+                    <tr>
+                      <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                      <td>
+                        <div class="flex items-center gap-3">
+                          <div class="avatar">
+                            <div class="mask mask-squircle w-12 h-12">
+                                <img src="" alt="" />
+                            </div>
+                          </div>
+                          <div>
+                            <div class="font-bold">Marjy Ferencz</div>
+                            <div class="text-sm opacity-50">Russia</div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        Rowe-Schoen
+                        <br/>
+                        <span class="badge badge-ghost badge-sm">Office Assistant I</span>
+                      </td>
+                      <td><button  class="btn btn-ghost btn-xs">add</button></td>
+                      <th>
+                        <button class="btn btn-ghost btn-xs">delete</button>
+                      </th>
+                    </tr>
+                    <!-- row 4 -->
+                    <tr>
+                      <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                      <td>
+                        <div class="flex items-center gap-3">
+                          <div class="avatar">
+                            <div class="mask mask-squircle w-12 h-12">
+                                <img src="" alt="" />
+                            </div>
+                          </div>
+                          <div>
+                            <div class="font-bold">Yancy Tear</div>
+                            <div class="text-sm opacity-50">Brazil</div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        Wyman-Ledner
+                        <br/>
+                        <span class="badge badge-ghost badge-sm">Community Outreach Specialist</span>
+                      </td>
+                      <td><button  class="btn btn-ghost btn-xs">add</button></td>
+                      <th>
+                        <button class="btn btn-ghost btn-xs">delete</button>
+                      </th>
+                    </tr>
+                  </tbody>
+                  
+                </table>
+              </div>
+          </section>
+    </main>
+   
+</body>
+</html>

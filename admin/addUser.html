@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar bg-slate-200 ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="admin.html">Admin Home</a></li>
+                      <li><a href="userList.html">User LIst</a></li>
+                      <li><a href="addUser.html">Add User</a></li>
+                      
+                    </ul>
+                  </div>
+            </div>
+           
+          
+          </div>
+    </header>
+    <main>
+        <div class="flex flex-col w-full lg:flex-row p-5 mt-20">
+            <div class="grid flex-grow h-44 card bg-base-300 rounded-box place-items-center">content</div> 
+            <div class="divider lg:divider-horizontal"></div> 
+            <div class="grid flex-grow h-44 card bg-base-300 rounded-box place-items-center">content</div>
+            <div class="divider lg:divider-horizontal"></div> 
+            <div class="grid flex-grow h-44 card bg-base-300 rounded-box place-items-center">content</div>
+          </div>
+<!-- add section -->
+          <section class="w-3/12 flex gap-2 ml-10 px-2">
+            <label class="input input-bordered flex items-center gap-2 ">
+                <input type="text" class="grow" placeholder="Search" />
+                <kbd class="kbd kbd-sm">⌘</kbd>
+                <kbd class="kbd kbd-sm">K</kbd>
+              </label>
+            <label class="input input-bordered flex items-center gap-2">
+                Name
+                <input type="text" class="grow" placeholder="Daisy" />
+              </label>
+              <label class="input input-bordered flex items-center gap-2">
+                Email
+                <input type="text" class="grow" placeholder="daisy@site.com" />
+              </label>
+              <button class="bg-slate-300 border rounded-lg p-3 font-bold ">Add</button>
+            
+          </section>
+        </main>
+   
+    </body>
+    </html>
